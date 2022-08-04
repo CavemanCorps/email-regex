@@ -18,5 +18,5 @@ for groups in emailRegex.findall(text):
 
 # Copies matches from clipboard                 
 pyperclip.copy('\n'.join(matches))
-print('WE FOUND '+ str(len(matches)) + ' MATCHES')
+print('MATCHES FOUND: ' str(len(matches)))
 print('\n'.join(matches))
